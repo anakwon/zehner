@@ -1,0 +1,169 @@
+ @font-face { font-family: Din; src: url('DINPro-Light.otf'); } 
+ @font-face { font-family: Din; font-weight: bold; src: url('DIN-Bold.ttf');}
+
+ *{
+ 	font-family:Din;
+ }
+
+ a {
+ 	color:#000;
+ }
+
+ img {
+ 	max-width:100%;
+ }
+
+ a:hover {
+ 	text-decoration-line: none;
+ 	color: #000;
+ }
+
+ .container {
+ 	margin: 0;
+ 	max-width:100%;
+ }
+
+ .top-ad {
+ 	color: #FFF;
+ 	background-color: #000;
+ 	text-align:center;
+ 	padding: 10px 0 5px 0;
+ }
+
+ .top-ad a{
+ 	color:#FFF;
+ 	font-size:16px;
+ }
+
+ a:hover {
+ 	color: #f15b4c;
+ }
+
+ .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    color: #f15b4c;
+    background-color:#fff;
+}
+
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+	width: 100%;
+	top: auto;
+	text-align: left;
+	padding: 0 8em;
+}
+
+.dropdown-item {
+	padding: 0.5rem 1.5rem;
+	font-size: 13px;
+
+}
+
+.firstItem {
+	padding-top: 1.8rem;
+}
+
+.navbar-nav { 
+    flex-direction: row;
+    padding: 10px 20px 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li { 
+	display: inline-block;
+}
+
+.login{
+	padding: 0.5em 4em 0.5em 1em;
+}
+
+li.nav-item {
+	padding: 0 1em 0 1em;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+#nav-logo, #nav-logo a.nav-link{
+	padding-top: 0;
+	padding-left: 25px;
+}
+.juice-logo {
+	height: 40px;
+}
+#nav-cart {
+	padding-left: 4rem;
+}
+.cart {
+	height: 25px;
+}
+.dropdown-img {
+	height: 19rem;
+}
+
+
+/*Styling for top banner image*/
+.hero-banner {
+	padding:0;
+	position: relative;
+}
+.hero-title {
+	position: absolute;
+	top: 7rem;
+	left: 10rem;
+	font-weight: bold;
+}
+.hero-desc {
+	position: absolute;
+	top : 14rem;
+	left: 10rem;
+	font-size: 18px;
+}
+.view-menu{
+	position: absolute;
+	bottom: 6rem;
+	left: 10rem;
+	border-radius: 0;
+	background-color: #ff5e48;
+	border: 1px solid #ff5e48;
+	font-size: 12px;
+	padding: 10px 35px;
+}
+.view-menu:hover {
+	background-color: #ff5e48;
+	border: 1px solid #ff5e48;;
+}
+/*End of top banner*/
+
+
+/*YOU BUY IT BY THE BOX Styling*/
+/*.big-number {
+	font-size: 10rem;
+	color: #ff5e48;
+	font-weight: bold;
+}*/
+.small-desc {
+	position: relative;
+    right: 8.3rem;
+    top: 1.5rem;
+    font-size: 12px;
+}
+.box-numbers {
+	display: -webkit-inline-box;
+}
+.number-img {
+	height:100px;
+}
+
+
+
+
